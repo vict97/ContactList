@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>Repertoire des contacts</h1>
+        </div>
+
+        <div class="section">
+            <div class="formContact">
+                <div class="formTitle">
+                    <h1>Formulaire de contact</h1>
+                </div>
+
+                <div class="form">
+                    <form action="">
+                        <div class="input-prenom">
+                            <label for="prenom">Prenom</label>
+                            <input type="text" id="prenom" class="input">
+                        </div>
+
+                        <div class="input-nom">
+                            <label for="nom">Nom</label>
+                            <input type="text" id="nom" class="input">
+                        </div>
+
+                        <div class="input-phone">
+                            <label for="phone">Telephone</label>
+                            <input type="tel" id="phone2" class="input">
+                        </div>
+
+                        <div class="input-select">
+                            <label for=" ">Group</label>
+                            <select id="group" class="input">
+                              <option value="0"></option>
+                              <option value="Amis">Amis</option>
+                              <option value="Famille">Famille</option>
+                              <option value="Collegues">Collegues</option>
+                          </select>
+                        </div>
+
+                        <div class="input-mail">
+                            <label for="nom">Mail</label>
+                            <input type="email" id="mail" class="input">
+                        </div>
+
+                        <div class="text-area">
+                            <label for="bio">Bio</label>
+                            <textarea name="textarea " id="bioText" cols="30 " rows="10 " class="input"></textarea>
+                        </div>
+
+                        <div class="drag-area">
+                            <img src="" alt="Deposez votre image ici" id="imgArea">
+                            <!-- <p>Deposez la photo ici</p>--->
+
+                        </div>
+                        <input type="hidden" name="index" id="index" value="-1">
+
+                        <div class="btn">
+                            <div class="submit-creer">
+                                <input type="submit" value="Créer">
+                            </div>
+
+                            <div class="submitReinit">
+                                <input type="submit" value="Réinit." id="submitReinit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="listContact">
+                <div class="listTitle ">
+                    <h1>Liste des contacts</h1>
+                    <p class="showMessage"> Aucun contact enregistré</p>
+                </div>
+                <!-- <div class="displayContent">
+                    <div class="displayImg">
+                        <img src="dark.jpg" />
+                    </div>
+                    <div class="showContent">
+                        <span class="icons">
+                            <i class="fas fa-user-edit"></i>
+                            <i class="fa fa-trash btn_delete" aria-hidden="true"></i>
+                        </span>
+                        <span class="icons">
+                            
+                        </span>
+                        <span id="png">Prénom Nom - Groupe</span>
+                        <p id="phone">Télephone</p>
+
+                        <p id="bio">
+                            What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        </p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js "></script>
+</body>
+
+</html>
